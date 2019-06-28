@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="335dp"
+            app:srcCompat="@mipmap/floreverlogo" />
+
+        <ImageButton
+            android:id="@+id/regiB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:height="4dp"
+            android:onClick="onClick_Reg"
+            android:padding="0dp"
+            app:srcCompat="@mipmap/registrate" />
+
+
+        <ImageButton
+            android:id="@+id/logB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="50dp"
+            android:height="4dp"
+            android:onClick="onClickLogin"
+            android:padding="0dp"
+            app:srcCompat="@mipmap/login" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="84dp"
+        android:background="#000000"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp">
+
+
+        <ImageButton
+            android:id="@+id/llamarr"
+            android:layout_width="48dp"
+            android:layout_height="49dp"
+            android:layout_marginLeft="30dp"
+            android:onClick="onClick"
+            app:srcCompat="@mipmap/llamada" />
+
+        <ImageButton
+            android:id="@+id/facelogo"
+            android:layout_width="48dp"
+            android:layout_height="49dp"
+            android:layout_marginLeft="30dp"
+            android:onClick="onClickFace"
+            app:srcCompat="@mipmap/facebook" />
+
+        <ImageButton
+            android:id="@+id/instlogo"
+            android:layout_width="48dp"
+            android:layout_height="49dp"
+            android:layout_marginLeft="30dp"
+            android:onClick="onClickInst"
+            app:srcCompat="@mipmap/instagram" />
+
+        <ImageButton
+            android:id="@+id/whatlogo"
+            android:layout_width="48dp"
+            android:layout_height="49dp"
+            android:layout_marginLeft="30dp"
+            android:onClick="onClickWhat"
+            app:srcCompat="@mipmap/pagoficial" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="402dp"
+        android:layout_height="67dp"
+        android:background="#000000"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="4dp">
+
+        <ImageButton
+            android:id="@+id/btnVideo"
+            android:layout_width="48dp"
+            android:layout_height="49dp"
+            android:layout_marginLeft="10dp"
+            android:scaleType="centerCrop"
+            android:background="#000000"
+            android:onClick="onClickVideo"
+            app:srcCompat="@mipmap/iconvideo" />
+
+        <ImageButton
+            android:id="@+id/btnmusic"
+            android:layout_width="48dp"
+            android:layout_height="49dp"
+            android:layout_marginLeft="240dp"
+            android:background="#000000"
+            android:onClick="onClickMusic"
+            android:scaleType="centerCrop"
+            app:srcCompat="@mipmap/iconplay" />
+
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "572416316630",
+    "firebase_url": "https://florever-a7cb1.firebaseio.com",
+    "project_id": "florever-a7cb1",
+    "storage_bucket": "florever-a7cb1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572416316630:android:4220d9fae95cbc1e",
+        "android_client_info": {
+          "package_name": "com.example.florever"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572416316630-f1nj1ja1i7d1ba02uauo1j87psj0te4o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.florever",
+            "certificate_hash": "ad827425a056fa9acc6db4f99283a140f9af1cf2"
+          }
+        },
+        {
+          "client_id": "572416316630-qra722o854m1ri05eonout6i7mk4csg5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAe8Q3j0x6zf0J2BTV2FZk2kayfCmv0wyA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572416316630-qra722o854m1ri05eonout6i7mk4csg5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
